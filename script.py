@@ -559,7 +559,7 @@ def run(sysargs):
 		dbg(cmd)
 		sh(cmd)
 		
-		cmd = su(t) + "kill -s SIGKILL `pgrep redis`"
+		cmd = su(t) + "kill -9 `pgrep redis`"
 		sh(cmd)
 		
 		cd(__home)
@@ -598,7 +598,7 @@ def run(sysargs):
 		dbg(cmd)
 		sh(cmd)
 		
-		cmd = su(t) + "kill -s SIGKILL `pgrep memcached`"
+		cmd = su(t) + "kill -9 `pgrep memcached`"
 		sh(cmd)
 
 		cd(__home)
