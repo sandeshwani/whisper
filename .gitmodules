@@ -33,7 +33,7 @@
 	branch = placement_new_on_psegments
 [submodule "mnemosyne-gcc"]
 	path = mnemosyne-gcc
-	url = https://github.com/sandeshwani/mnemosyne-gcc.git 
+	url = https://github.com/sandeshwani/mnemosyne-gcc 
 	branch = master
 [submodule "nvml"]
 	path = nvml
@@ -45,7 +45,7 @@
 	branch = 3.2-nvml
 [submodule "PMFS-new"]
 	path = PMFS-new
-	url = https://github.com/sandeshwani/PMFS-new.git 
+	url = https://github.com/sandeshwani/PMFS-new
 	branch = sandesh
 [submodule "kv-echo"]
 	path = kv-echo
